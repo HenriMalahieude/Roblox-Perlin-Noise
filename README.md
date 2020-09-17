@@ -1,6 +1,8 @@
 # Roblox-Perlin-Noise
 This project was focused on creating a terrain generator that used the Perlin Noise function as it's primary algorithm. Without using the provided math.noise function, I created the generator in a two version process.
 
+Note: Most of the code can be found in src/ServerScriptService
+
 Primary IDE: Roblox Game Engine
 
 Primary Language: Lua
