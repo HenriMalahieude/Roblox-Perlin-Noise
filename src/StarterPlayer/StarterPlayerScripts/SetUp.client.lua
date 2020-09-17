@@ -1,10 +1,10 @@
-local sGui = game.StarterGui
+local startGui = game.StarterGui
 local cam = workspace.CurrentCamera
 
 local camPos = Vector3.new(-40, 70, -40)
 
---replicate the gui's
-for _, gui in pairs(sGui:GetChildren()) do
+--replicate the guis, because the character not loading in doesn't replicate them :/
+for _, gui in pairs(startGui:GetChildren()) do
 	local cop = gui:Clone()
 	cop.Parent = script.Parent.Parent.PlayerGui
 end
